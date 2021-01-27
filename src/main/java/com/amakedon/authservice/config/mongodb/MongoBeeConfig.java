@@ -31,7 +31,6 @@ public class MongoBeeConfig {
         runner.setMongoTemplate(mongoTemplate);
         runner.setDbName(mongoProperties.getDatabase());
         runner.setChangeLogsScanPackage(MONGODB_CHANGELOGS_PACKAGE);
-        System.out.println();
         return runner;
     }
 
